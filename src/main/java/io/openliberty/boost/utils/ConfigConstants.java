@@ -12,14 +12,28 @@
 package io.openliberty.boost.utils;
 
 public interface ConfigConstants {
+	
     public String FEATURE = "feature";
     public String FEATURE_MANAGER = "featureManager";
     public String HTTP_ENDPOINT = "httpEndpoint";
     public String DEFAULT_HTTP_ENDPOINT = "defaultHttpEndpoint";
+    
+    // KeyStore configuration values
+    public String KEYSTORE = "keyStore";
+    public String DEFAULT_KEYSTORE = "defaultKeyStore";
+    public String KEY_ENTRY = "keyEntry"; 
+    public String KEYSTORE_LOCATION = "location";
+    public String KEYSTORE_PASSWORD = "password";
+    public String KEYSTORE_TYPE = "type";
+    public String KEYSTORE_PROVIDER = "provider";
+    public String KEY_NAME = "name";
+    public String KEY_PASSWORD = "keyPassword";
+    
 
     public String SPRING_BOOT_15 = "springBoot-1.5";
     public String SPRING_BOOT_20 = "springBoot-2.0";
     public String SERVLET_40 = "servlet-4.0";
 
     public String WEBSOCKET_11 = "websocket-1.1";
+    public String TRANSPORT_SECURITY_10 = "transportSecurity-1.0";
 }
